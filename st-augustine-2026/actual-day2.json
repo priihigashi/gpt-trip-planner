@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-08",
+  "actual": [
+    {
+      "place": "Castillo Cafe & Marketplace / Starbucks at Renaissance",
+      "time": "~10:45-11:00 AM",
+      "duration_minutes": 15,
+      "notes": "Bagel and cake before leaving the hotel. Save as a quick grab-and-go hotel breakfast option."
+    },
+    {
+      "place": "Old Town Trolley - boarded near Renaissance / Stop 2",
+      "time": "~11:00 AM",
+      "notes": "Started trolley sightseeing from the hotel area."
+    },
+    {
+      "place": "Fountain of Youth Archaeological Park",
+      "duration_minutes": 50,
+      "notes": "Confirmed hop-off stop from the trolley."
+    },
+    {
+      "place": "Old Jail",
+      "estimated_departure": "~1:27 PM",
+      "duration_minutes": 65,
+      "notes": "Confirmed stop. Total visit planned to be 65 minutes, including the final 15 minutes before departure."
+    }
+  ],
+  "next_planning_rule": "Recalculate the remaining Saturday plan from the real Old Jail departure time rather than the original itinerary. Food should be the next priority unless the family explicitly chooses another stop."
+}
