@@ -1,0 +1,34 @@
+{
+  "date": "2026-08-08",
+  "last_updated_local": "2026-08-08T13:22:00-04:00",
+  "status": "live",
+  "actual": [
+    {"time":"~10:45-11:00","place":"Castillo Cafe & Marketplace / Starbucks at Renaissance","duration_min":null,"notes":"Bagel and cake before leaving hotel."},
+    {"time":"late morning","place":"Old Town Trolley","duration_min":null,"notes":"Boarded near Renaissance / Visitor Information Center."},
+    {"time":"before Old Jail","place":"Fountain of Youth","duration_min":50,"notes":"Confirmed hop-off visit."},
+    {"time":"~12:22-1:27 PM","place":"Old Jail","duration_min":65,"notes":"Confirmed visit; planned departure around 1:27 PM."}
+  ],
+  "next": {
+    "priority": "FOOD NOW",
+    "depart_old_jail": "~1:27 PM",
+    "route": "Re-board trolley toward downtown / St. George area",
+    "option_a": {"place":"PK's Roosevelt Room","target_arrival":"~1:40-1:50 PM","constraint":"Time-sensitive brunch; switch if arrival is too close to closing."},
+    "option_b": {"place":"Casa Maya","target_arrival":"~1:40-2:00 PM","reason":"More casual fallback; Bloody Mary; less time pressure."}
+  },
+  "revised_after_food": [
+    {"target":"~2:45-3:00 PM","place":"Pirate & Treasure Museum","priority":"high","notes":"Kid-engaging, indoor/AC; prioritize before later-closing flexible attractions."},
+    {"target":"~4:15 PM","place":"Snack / coffee reset","priority":"medium"},
+    {"target":"late afternoon","place":"Colonial Quarter or other early-closing history","priority":"conditional","notes":"Only if hours still work after lunch and Pirate Museum."},
+    {"target":"evening","place":"Ripley's Believe It or Not! Museum","priority":"flexible","notes":"Keep visible as DON'T FORGET; indoor/AC and later-closing option; can move to Sunday half-day."},
+    {"target":"~5:30-6:30 PM","place":"Late lunch/dinner only if needed","priority":"conditional","notes":"Because the real meal is now around 1:45-2:30, dinner should be later/lighter rather than fixed at 5:15."},
+    {"target":"evening","place":"Kilwins / treat","priority":"medium"}
+  ],
+  "rules": [
+    "Actual stops override planned times.",
+    "After a hop-off attraction, shift downstream times by visit duration plus trolley wait/reboarding time.",
+    "Do not keep the obsolete 11:00 brunch or 5:15 dinner anchors after today's delays.",
+    "Keep Renaissance visible as the base reference in every map view.",
+    "Keep Project SWING saved as a free near-hotel kids fallback.",
+    "Keep Ripley's visible in recommendations even when deferred."
+  ]
+}
